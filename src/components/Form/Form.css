@@ -3,15 +3,20 @@
     flex-direction: column;
     width: 100%;
     padding: 20px;
+    background-color: var(--tg-theme-section-bg-color);
 }
 
 .input {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
+    background-color: var(--tg-theme-section-bg-color);
+    color: var(--tg-theme-section-header-text-color);
 }
 
 .select {
     padding: 10px;
     margin-top: 15px;
+    color: var(--tg-theme-section-header-text-color);
+    background-color: var(--tg-theme-section-bg-color);
 }
