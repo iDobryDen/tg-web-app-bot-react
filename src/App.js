@@ -1,21 +1,20 @@
 //import { useCookie } from 'nuxt/app';
 import './App.css';
 import React, { useEffect } from 'react';
-
-const tg = window.Telegram.WebApp;
+import { useTelegram } from "./hooks/useTelegram";
 
 function App() {
+
+    const {onToggleButton, tg} = useTelegram();
 
     useEffect( () => {
         tg.ready();
     }, [])
 
-
-
   return (
     <div className="App">
-        work
-        
+        <b>work</b>
+        <button onClick={onToggleButton}>toggle</button>
     </div>
   );
 }
