@@ -11,12 +11,12 @@
     padding: 10px;
     margin-top: 15px;
     background-color: var(--tg-theme-section-bg-color);
-    color: var(--tg-theme-section-header-text-color);
+    color: var(--tg-theme-text-color);
 }
 
 .select {
     padding: 10px;
     margin-top: 15px;
-    color: var(--tg-theme-section-header-text-color);
+    color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-section-bg-color);
 }
