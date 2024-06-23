@@ -57,14 +57,14 @@ const Form = () => {
             <input 
                 className={'input'}
                 type="text"
-                placeholder={'Страна'} 
+                placeholder={'Улица'} 
                 value={street}
                 onChange={onChangeStreet}/>
 
             <input 
                 className={'input'} 
                 type="text" 
-                placeholder={'Улица'} 
+                placeholder={'Страна'} 
                 value={country}
                 onChange={onChangeCountry}/>
 
